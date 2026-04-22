@@ -1,0 +1,31 @@
+div{
+    background-color: burlywood;
+    text-align: center;
+    color: blue;
+    border-radius: 10.5%;
+    box-shadow: 0 6px 8px black;
+    width: 10;
+    height: 15;
+    font-size: 15px;
+}
+span {
+    background-color: burlywood;
+    text-align: center;
+    color: blue;
+    border-radius: 10.5%;
+    box-shadow: 0 6px 8px black;
+    width: 10;
+    height: 15;
+    font-size: 15px;
+}
+
+strong{
+    background-color: black;
+    text-align: center;
+    color: blue;
+    border-radius: 10.5%;
+    box-shadow: 0 6px 8px black;
+    width: 10;
+    height: 15;
+    font-size: 15px;
+}
