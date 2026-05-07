@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Test - 04</title>
+<style>
+    body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin: 10px 0;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.card{
+    width: 250px;
+    background-color: bisque;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0px 4px 10px gray;
+}
+
+.card img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h2{
+    margin: 10px 0 5px;
+}
+
+.card p{
+    color: brown;
+    font-size: 18px;
+    margin: 5px 0 15px;
+}
+
+.card button{
+    background-color: brown;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.card button:hover{
+    background-color: darkred;
+}
+</style>
+</head>
+<body>
+    <h1>Profile Cards</h1>
+    <div class="team">
+        <div class="card">
+            <img src="https://i.pravatar.cc/150?img=1" alt="Profile">
+            <h2>Harsha</h2>
+            <p>Manager</p>
+            <button>View Profile</button>
+        </div>
+        <div class="card">
+            <img src="https://i.pravatar.cc/150?img=2" alt="Profile">
+            <h2>SriHarsha</h2>
+            <p>Frontend Developer</p>
+            <button>View Profile</button>
+        </div>
+        <div class="card">
+            <img src="https://i.pravatar.cc/150?img=3" alt="Profile">
+            <h2>Nani</h2>
+            <p>Web Developer</p>
+            <button>View Profile</button>
+        </div>
+    </div>
+</body>
+</html>
